@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Actualités</title>
+  </head>
+  <link rel="stylesheet" href="actualites.css">
+  <body>
+    <div class="header" style="background-color: blue; width: 100%; height: 60px; position: absolute; left: 0; top: 0; box-shadow: 0 0 15px 0 gray;">
+      <span style="color: white; width: 160px; height: 80px; display: inline-block;">
+        <a href="index.html" id="title" onmouseover="titleover()" onmouseout="titleout()" style="color: white; text-decoration: none; font-size: 25px; position: absolute; left: 15%; top: -10%">
+          <p><b>
+          Ronald Beaufils
+        </b>
+        </p>
+      </a>
+      </span>
+      <div style="position: absolute; left: 50%; top: 0px;" >
+        <span style="position: relative; top: 20px; left: 30px;">
+        <a href="index.html" id="accueil" onmouseover="accueilover()" onmouseout="accueilout()" style="color: white; text-decoration: none; font-size: 20px;"><b>Accueil</b></a>
+      </span>
+    <span style="position: relative; top: 20px; left: 70px;">
+      <a href="videos.html" id="videos" onmouseover="videosover()" onmouseout="videosout()" style="color: white; text-decoration: none; font-size: 20px;"><b>Vidéos</b></a>
+    </span>
+    <span style="position: relative; top: 20px; left: 110px;">
+    <a href="texte.html" id="texte" onmouseover="texteover()" onmouseout="texteout()" style="color: white; text-decoration: none; font-size: 20px;"><b>Texte</b></a>
+    </span>
+    <span style="position: relative; top: 20px; left: 150px;">
+    <a href="actualites.html" id="actus" onmouseover="actusover()" onmouseout="actusout()" style="color: white; text-decoration: none; font-size: 20px;"><b>Actualités</b></a>
+    </span>
+    </div>
+    </div>
+<div class="content" style="position: absolute; top: 80px; width: 100%; left: 0;">
+  <div id="livrepublication" style="width: 100%; height: 500px;position: absolute; background-color: black; color: white;">
+<div class="" style="width: 50%; position: absolute; right: 0%;">
+  <h2 style="text-align: center;">Publication du livre "L'évangile Totale à L'homme Total"</h2>
+  <p style="text-align: center; font-size: 20px;">Le livre "L'évangile Totale à L'homme Total" est disponible en Librairie (La Pléiade et Presses Évangéliques) et sur <a href="https://www.amazon.com/LEvangile-total-%C3%A0-lhomme-French-ebook/dp/B09JB2XRDD/ref=sr_1_1?crid=GW1N5OZGCZK3&keywords=l%27evangile+totale&qid=1658447072&sprefix=l%27%C3%A9vangile+totale%2Caps%2C168&sr=8-1" style="color: red;"><span>
+    Amazon</span></a>  en version électronique. Ce livre, publié par Ronald Beaufils, traite de la chrétienneté sur tous ses aspects et du rôle  du chrétien dans le monde.</p>
+    <p style="text-align: center; font-size: 20px;">Pour vous procurer ce livre, rendez-vous dans une librairie ou contactez son auteur, le Pasteur Ronald Beaufils.</p>
+  <p style="text-align: center; font-size: 20px;">Ce livre peut être trouvé au #52 Rue Oswald Durand, Port-au-Prince, Haïti.</p>
+</div>
+
+<div id="images" style="width: 951px; height: 582px; position: absolute; left: 25%; top: 20%">
+<img id="livre2" src="Livre 2.png" style="width: 60%; height: 59.5%; position: absolute; left: -30%; border-radius: 2%">
+<img id="livre1" src="Livre 1.png" style="width: 60%; position: absolute; left: -30%; border-radius: 2%">
+</div>
+</div>
+
+
+</div>
+<footer style="position: fixed; left: 0; bottom: 0; background-color: darkblue; width: 100%; height: 50px; color: white">
+  <h4 style="position: absolute; left: 20%; bottom: -50%; font-size: 25px;"> Ronald Beaufils</h4>
+  <p style="text-align: center; font-size: 16px;">© 2021</p>
+</footer>
+
+<script type="text/javascript">
+function titleover() {
+  document.getElementById('title').style.color = "black";
+}
+function titleout() {
+  document.getElementById('title').style.color = "white";
+}
+
+function accueilover() {
+  document.getElementById('accueil').style.color = "black";
+}
+function accueilout() {
+  document.getElementById('accueil').style.color = "white";
+}
+
+function videosover() {
+  document.getElementById('videos').style.color = "black";
+}
+function videosout() {
+  document.getElementById('videos').style.color = "white";
+}
+
+function texteover() {
+  document.getElementById('texte').style.color = "black";
+}
+function texteout() {
+  document.getElementById('texte').style.color = "white";
+}
+
+function actusover() {
+  document.getElementById('actus').style.color = "black";
+}
+function actusout() {
+  document.getElementById('actus').style.color = "white";
+}
+
+
+</script>
+
+  </body>
+</html>

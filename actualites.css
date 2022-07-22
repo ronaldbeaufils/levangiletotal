@@ -1,0 +1,13 @@
+#livre1 {
+animation-name: imageSwipe;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+
+@keyframes imageSwipe {
+0% {opacity: 100%;}
+25% {opacity: 0%;}
+50% {opacity: 0%;}
+75% {opacity: 100%;}
+100% {opacity: 100%;}
+}
