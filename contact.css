@@ -3,6 +3,11 @@
   bottom: 10px;
   left: 20px;
   font-size: 20px;
+  color: blue;
+}
+
+#gmailt:hover {
+text-decoration: underline;
 }
 
 #yahoot {
@@ -10,6 +15,11 @@
   bottom: 20px;
   left: 20px;
   font-size: 20px;
+  color: blue;
+}
+
+#yahoot:hover {
+text-decoration: underline;
 }
 
 #fbt {
@@ -17,6 +27,11 @@
   bottom: 20px;
   left: 20px;
   font-size: 20px;
+  color: blue;
+}
+
+#fbt:hover {
+text-decoration: underline;
 }
 
 #twittert {
@@ -24,6 +39,11 @@
   bottom: 20px;
   left: 20px;
   font-size: 20px;
+  color: blue;
+}
+
+#twittert:hover {
+  text-decoration: underline;
 }
 
 #igt {
@@ -31,6 +51,11 @@
   bottom: 20px;
   left: 20px;
   font-size: 20px;
+  color: blue;
+}
+
+#igt:hover {
+text-decoration: underline;
 }
 
 #ytt {
@@ -38,4 +63,9 @@
   bottom: 20px;
   left: 20px;
   font-size: 20px;
+  color: blue;
+}
+
+#ytt:hover {
+text-decoration: underline;
 }
