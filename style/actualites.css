@@ -11,3 +11,11 @@ animation-iteration-count: infinite;
 75% {opacity: 100%;}
 100% {opacity: 100%;}
 }
+
+#link {
+  text-decoration: none;
+}
+
+#link:hover {
+  text-decoration: underline;
+}
