@@ -2,11 +2,14 @@
   padding-bottom: 30px;
 }
 
+<<<<<<< HEAD
 #list-element:hover {
   border: solid;
   border-radius: 7%;
 }
 
+=======
+>>>>>>> 05381da73fe490d80b1f47643dd962d67e7024c2
 #list {
   font-size: 60px;
 }
