@@ -1,4 +1,13 @@
-#item:hover {
+#list-element:hover {
   border: solid;
   border-radius: 7%;
+}
+
+#nonono {
+  font-size: 25px;
+}
+
+#list {
+  position: relative;
+  top: 20px;
 }

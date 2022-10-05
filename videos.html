@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-  <head>
+  <head id="head">
     <meta charset="utf-8">
         <link rel="stylesheet" href="style/scrollbar.css">
         <link rel="stylesheet" href="style/texte.css">
@@ -8,64 +8,62 @@
     <title>Vidéos</title>
   </head>
   <body>
-<div class="header" style="background-color: blue; min-width: 1480px; width: 100%; height: 60px; position: absolute; left: 0; top: 0; box-shadow: 0 0 15px 0 gray;">
-    <span style="color: white; width: 160px; height: 80px; display: inline-block;">
-    <a href="index.html" id="title" onmouseover="titleover()" onmouseout="titleout()" style="color: white; text-decoration: none; font-size: 25px; position: absolute; left: 15%; top: -10%">
-      <p><b>
+    <div id="header">
+    <span style="color: white; width: auto; position: absolute; top: 25%; left: 10%; height: auto;">
+    <a href="index.html" id="title"style="color: white; text-decoration: none;">
+      <b>
       Ronald Beaufils
     </b>
-    </p>
-  </a>
-  </span>
-  <div style="position: absolute; left: 50%; top: 0px;" >
-    <span style="position: relative; top: 20px; left: 30px;">
-    <a href="index.html" id="accueil" onmouseover="accueilover()" onmouseout="accueilout()" style="color: white; text-decoration: none; font-size: 20px;"><b>Accueil</b></a>
-  </span>
-<span style="position: relative; top: 20px; left: 70px;">
-  <a href="videos.html" id="videos" onmouseover="videosover()" onmouseout="videosout()" style="color: white; text-decoration: none; font-size: 20px;"><b>Vidéos</b></a>
-</span>
-<span style="position: relative; top: 20px; left: 110px;">
-<a href="texte.html" id="texte" onmouseover="texteover()" onmouseout="texteout()" style="color: white; text-decoration: none; font-size: 20px;"><b>Texte</b></a>
-</span>
-<span style="position: relative; top: 20px; left: 150px;">
-<a href="actualites.html" id="actus" onmouseover="actusover()" onmouseout="actusout()" style="color: white; text-decoration: none; font-size: 20px;"><b>Actualités</b></a>
-</span>
-<span style="position: relative; top: 20px; left: 190px;">
-<a href="contact.html" id="contact" onmouseover="contactover()" onmouseout="contactout()" style="color: white; text-decoration: none; font-size: 20px;"><b>Contact</b></a>
-</span>
-</div>
-</div>
+    </a>
+    </span>
+
+    <span style="position: absolute; top: 20px; right: 45%;">
+    <a href="index.html" id="accueil" style="color: white; text-decoration: none;"><b>Accueil</b></a>
+    </span>
+    <span style="position: absolute; top: 20px; right: 35%;">
+    <a href="videos.html" id="videos" style="color: white; text-decoration: none;"><b>Vidéos</b></a>
+    </span>
+    <span style="position: absolute; top: 20px; right: 27%;">
+    <a href="texte.html" id="texte" style="color: white; text-decoration: none;"><b>Texte</b></a>
+    </span>
+    <span style="position: absolute; top: 20px; right: 15%;">
+    <a href="actualites.html" id="actus" style="color: white; text-decoration: none;"><b>Actualités</b></a>
+    </span>
+    <span style="position: absolute; top: 20px; right: 5%;">
+    <a href="contact.html" id="contact" style="color: white; text-decoration: none;"><b>Contact</b></a>
+    </span>
+    </div>
     <div class="content" style="position: absolute; top: 80px; height: auto; width: 80%; left: 10%; padding-bottom: 20px;;">
 <p style="text-align: center; font-size: 15px; color: gray; position: absolute; width: 100%; left: 0;">Cliquer sur un titre pour afficher son contenu</p></span>
-<ol style="font-size: 30px;">
+<ol id="list">
   <b>
-  <li style=" padding-bottom: 20px"><a href="videos/2022pouou.html" id="item" style="color: black; text-decoration: none;">Kijan 2022 ap ye pou ou?</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/voeux2021.html" id="item" style="color: black; text-decoration: none;">Voeux pour 2021</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/generositegratitude.html" id="item" style="color: black; text-decoration: none;">Generosite et Gratitude</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/aimerprochain.html" id="item" style="color: black; text-decoration: none;">Nous devons aimer notre prochain</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/prochainbesoinaide.html" id="item" style="color: black; text-decoration: none;">Le prochain est celui qui a besoin de mon aide</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/Jeziseyemwen.html" id="item" style="color: black; text-decoration: none;">Jezi Kris se seye mwen</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/chretiensmigrants.html" id="item" style="color: black; text-decoration: none;">Chretiens et migrants</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/evangiletotalpres1.html" id="item" style="color: black; text-decoration: none;">L'evangile total a l'homme total (Presentation 1)</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/evangiletotalpres2.html" id="item" style="color: black; text-decoration: none;">L'evangile total a l'homme total (Presentation 2)</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/evangiletotalpres3.html" id="item" style="color: black; text-decoration: none;">L'evangile total a l'homme total (Le vrai chretien n'est pas un traitre)</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/evangile=amour.html" id="item" style="color: black; text-decoration: none;">Evangile = Amour pour Dieu et pour le prochain</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/Dieuevangile.html" id="item" style="color: black; text-decoration: none;">Dieu dans l'evangile</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/hospitaliteevangile.html" id="item" style="color: black; text-decoration: none;">L'hospitalite dans l'evangile</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/ostracisme.html" id="item" style="color: black; text-decoration: none;">L'ostracisme</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/Dieudelivre.html" id="item" style="color: black; text-decoration: none;">Dieu delivre des tempetes</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/Jesusdivinberger.html" id="item" style="color: black; text-decoration: none;">Jesus, le Bon Berger</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/attitudeargent.html" id="item" style="color: black; text-decoration: none;">Attitude a avoir face a l'argent</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/fortsmomentsdifficiles.html" id="item" style="color: black; text-decoration: none;">Soyons forts dans les moments difficiles en restant attaches aux commandements de Dieu</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/zambatayspirityel.html" id="item" style="color: black; text-decoration: none;">Zam spirityel pou batay spirityel</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/familledeviancessociales.html" id="item" style="color: black; text-decoration: none;">La famille et les deviances sociales</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/quandtoutresteDieu.html" id="item" style="color: black; text-decoration: none;">Quand tout vient a manquer, il te reste Dieu</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/brieveteviesurterre.html" id="item" style="color: black; text-decoration: none;">La brièveté de la vie sur terre</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/presenceJesussourcebonheur.html" id="item" style="color: black; text-decoration: none;">La présence de Jésus, la source du vrai bonheur?</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/obstaclesbible.html" id="item" style="color: black; text-decoration: none;">Les obstacles a la Bible</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/souhaitanquivient.html" id="item" style="color: black; text-decoration: none;">Souhait pour l'an qui vient</a></li>
-  <li style=" padding-bottom: 20px"><a href="videos/temoinsfaceBible1.html" id="item" style="color: black; text-decoration: none;">Les temoins de Jehovah face a la Bible 1</a></li>
-    <li style=" padding-bottom: 20px"><a href="videos/temoinsfaceBible2.html" id="item" style="color: black; text-decoration: none;">Les temoins de Jehovah face a la Bible 2</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/2022pouou.html" id="list-element" style="color: black; text-decoration: none;">Kijan 2022 ap ye pou ou?</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/voeux2021.html" id="list-element" style="color: black; text-decoration: none;">Voeux pour 2021</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/generositegratitude.html" id="list-element" style="color: black; text-decoration: none;">Generosite et Gratitude</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/aimerprochain.html" id="list-element" style="color: black; text-decoration: none;">Nous devons aimer notre prochain</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/prochainbesoinaide.html" id="list-element" style="color: black; text-decoration: none;">Le prochain est celui qui a besoin de mon aide</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/Jeziseyemwen.html" id="list-element" style="color: black; text-decoration: none;">Jezi Kris se seye mwen</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/chretiensmigrants.html" id="list-element" style="color: black; text-decoration: none;">Chretiens et migrants</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/evangiletotalpres1.html" id="list-element" style="color: black; text-decoration: none;">L'evangile total a l'homme total (Presentation 1)</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/evangiletotalpres2.html" id="list-element" style="color: black; text-decoration: none;">L'evangile total a l'homme total (Presentation 2)</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/evangiletotalpres3.html" id="list-element" style="color: black; text-decoration: none;">L'evangile total a l'homme total (Le vrai chretien n'est pas un traitre)</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/evangile=amour.html" id="list-element" style="color: black; text-decoration: none;">Evangile = Amour pour Dieu et pour le prochain</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/Dieuevangile.html" id="list-element" style="color: black; text-decoration: none;">Dieu dans l'evangile</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/hospitaliteevangile.html" id="list-element" style="color: black; text-decoration: none;">L'hospitalite dans l'evangile</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/ostracisme.html" id="list-element" style="color: black; text-decoration: none;">L'ostracisme</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/Dieudelivre.html" id="list-element" style="color: black; text-decoration: none;">Dieu delivre des tempetes</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/Jesusdivinberger.html" id="list-element" style="color: black; text-decoration: none;">Jesus, le Bon Berger</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/attitudeargent.html" id="list-element" style="color: black; text-decoration: none;">Attitude a avoir face a l'argent</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/fortsmomentsdifficiles.html" id="list-element" style="color: black; text-decoration: none;">Soyons forts dans les moments difficiles en restant attaches aux commandements de Dieu</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/zambatayspirityel.html" id="list-element" style="color: black; text-decoration: none;">Zam spirityel pou batay spirityel</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/familledeviancessociales.html" id="list-element" style="color: black; text-decoration: none;">La famille et les deviances sociales</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/quandtoutresteDieu.html" id="list-element" style="color: black; text-decoration: none;">Quand tout vient a manquer, il te reste Dieu</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/brieveteviesurterre.html" id="list-element" style="color: black; text-decoration: none;">La brièveté de la vie sur terre</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/presenceJesussourcebonheur.html" id="list-element" style="color: black; text-decoration: none;">La présence de Jésus, la source du vrai bonheur?</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/obstaclesbible.html" id="list-element" style="color: black; text-decoration: none;">Les obstacles a la Bible</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/souhaitanquivient.html" id="list-element" style="color: black; text-decoration: none;">Souhait pour l'an qui vient</a></li>
+  <li id="nonono" style=" padding-bottom: 20px"><a href="videos/temoinsfaceBible1.html" id="list-element" style="color: black; text-decoration: none;">Les temoins de Jehovah face a la Bible 1</a></li>
+    <li id="nonono" style=" padding-bottom: 20px"><a href="videos/temoinsfaceBible2.html" id="list-element" style="color: black; text-decoration: none;">Les temoins de Jehovah face a la Bible 2</a></li>
 
 
 </b>
@@ -75,11 +73,12 @@
 
 
 </div>
-<footer style="position: fixed; left: 0; bottom: 0; background-color: darkblue; width: 100%; height: 50px; color: white">
+<footer id="footer">
   <h4 style="position: absolute; left: 20%; bottom: -50%; font-size: 25px;"> Ronald Beaufils</h4>
   <p style="text-align: center; font-size: 16px;">© 2021</p>
 </footer>
 
+<script src="script/scr.js"></script>
 <script type="text/javascript">
 function titleover() {
   document.getElementById('title').style.color = "black";
