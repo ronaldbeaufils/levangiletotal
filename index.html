@@ -1,52 +1,51 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-  <head>
+  <head id="head">
     <meta charset="utf-8">
         <link rel="stylesheet" href="style/scrollbar.css">
     <link rel="icon" href="style/images/icon.ico" type="image/icon type">
+    <link rel="stylesheet" href="style/general.css">
     <title>Accueil</title>
   </head>
   <body>
-<div class="header" style="background-color: blue; min-width: 1480px; width: 100%; height: 60px; position: absolute; left: 0; top: 0; box-shadow: 0 0 15px 0 gray;">
-  <span style="color: white; width: 160px; height: 80px; display: inline-block;">
-    <a href="index.html" id="headElement" style="font-size: 25px; position: absolute; left: 15%; top: -10%">
-      <p><b>
+    <div id="header">
+    <span style="color: white; width: auto; position: absolute; top: 25%; left: 10%; height: auto;">
+    <a href="index.html" id="title"style="color: white; text-decoration: none;">
+      <b>
       Ronald Beaufils
     </b>
-    </p>
-  </a>
-  </span>
-  <div style="position: absolute; left: 50%; top: 0px;" >
-    <span style="position: relative; top: 20px; left: 30px;">
-    <a href="index.html" id="headElement"><b>Accueil</b></a>
-  </span>
-<span style="position: relative; top: 20px; left: 70px;">
-  <a href="videos.html" id="headElement"><b>Vidéos</b></a>
-</span>
-<span style="position: relative; top: 20px; left: 110px;">
-<a href="texte.html" id="headElement"><b>Texte</b></a>
-</span>
-<span style="position: relative; top: 20px; left: 150px;">
-<a href="actualites.html" id="headElement"><b>Actualités</b></a>
-</span>
-<span style="position: relative; top: 20px; left: 190px;">
-<a href="contact.html" id="headElement"><b>Contact</b></a>
-</span>
-</div>
-</div>
+    </a>
+    </span>
+
+    <span style="position: absolute; top: 20px; right: 45%;">
+    <a href="index.html" id="accueil" style="color: white; text-decoration: none;"><b>Accueil</b></a>
+    </span>
+    <span style="position: absolute; top: 20px; right: 35%;">
+    <a href="videos.html" id="videos" style="color: white; text-decoration: none;"><b>Vidéos</b></a>
+    </span>
+    <span style="position: absolute; top: 20px; right: 27%;">
+    <a href="texte.html" id="texte" style="color: white; text-decoration: none;"><b>Texte</b></a>
+    </span>
+    <span style="position: absolute; top: 20px; right: 15%;">
+    <a href="actualites.html" id="actus" style="color: white; text-decoration: none;"><b>Actualités</b></a>
+    </span>
+    <span style="position: absolute; top: 20px; right: 5%;">
+    <a href="contact.html" id="contact" style="color: white; text-decoration: none;"><b>Contact</b></a>
+    </span>
+    </div>
 <div class="content" style="position: absolute; top: 80px; width: 80%; left: 10%; padding-bottom: 100px;">
 <h1 style="text-align: center;">Bienvenue Dans Le Site Du Pasteur Ronald Beaufils</h1>
-<p style="text-align: center; font-size: 23px;">Ce site regroupe des textes et des vidéos préparés par le pasteur Ronald Beaufils. On peut aussi y trouver des livres écrits par ce dernier ainsi que ses dernières actualités.</p>
-  <p style="font-size: 23px; text-align: center;">Sur ce, nous vous souhaitons de passer un agréable moment.</p>
+<p style="text-align: center; font-size: 30px;">Ce site regroupe des textes et des vidéos préparés par le pasteur Ronald Beaufils. On peut aussi y trouver des livres écrits par ce dernier ainsi que ses dernières actualités.</p>
+  <p style="font-size: 30px; text-align: center;">Sur ce, nous vous souhaitons de passer un agréable moment.</p>
 <h2 style="text-align: center;">Proposition d'une vidéo</h2>
-<iframe width="600" height="350" style="position: absolute; top:300px; left: 35%; border-radius: 25px;" src="https://www.youtube.com/embed/b57qhRHoy2s" title="Quand tout vient à manquer , il te reste Dieu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="350" style="position: absolute; top:90%; left: 20%; border-radius: 25px;" src="https://www.youtube.com/embed/b57qhRHoy2s" title="Quand tout vient à manquer , il te reste Dieu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 
-<footer style="position: fixed; left: 0; bottom: 0; background-color: darkblue; width: 100%; height: 50px; color: white">
+<footer id="footer">
   <h4 style="position: absolute; left: 20%; bottom: -50%; font-size: 25px;"> Ronald Beaufils</h4>
   <p style="text-align: center; font-size: 16px;">© 2021</p>
 </footer>
-
+<script src="script/scr.js"></script>
   </body>
 </html>

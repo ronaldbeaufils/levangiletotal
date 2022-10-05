@@ -1,0 +1,46 @@
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: darkblue;
+  width: 100%;
+  height: 50px;
+  color: white;
+  border-top: 50px;
+}
+
+#header {
+  background-color: blue;
+  min-width: 500px;
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-shadow: 0 0 15px 0 gray;
+}
+
+
+#title {
+font-size: 25px;
+}
+
+#accueil {
+font-size: 20px;
+}
+
+#videos {
+  font-size: 20px;
+}
+
+#texte {
+  font-size: 20px;
+}
+
+#actus {
+  font-size: 20px;
+}
+
+#contact {
+  font-size: 20px;
+}
