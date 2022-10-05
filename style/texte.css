@@ -11,3 +11,7 @@
   position: relative;
   top: 20px;
 }
+
+#show-text {
+   font-size: 15px;
+}
