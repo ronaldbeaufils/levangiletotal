@@ -1,0 +1,21 @@
+#video {
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  min-height: 543px;
+}
+
+#content {
+  position: absolute;
+  top: 80px;
+  width: 90%;
+  left: 5%;
+  min-height: 700px;
+}
+
+#videoTitle {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 650px;
+}
