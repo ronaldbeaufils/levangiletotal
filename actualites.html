@@ -1,111 +1,146 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-  <head>
+  <head id="head">
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style/actualites.css">
         <link rel="stylesheet" href="style/scrollbar.css">
     <link rel="icon" href="style/images/icon.ico" type="image/icon type">
-    <title>Actualités</title>
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/actualites.css">
+    <title>Accueil</title>
   </head>
   <body>
-    <div class="header" style="background-color: blue; min-width: 1480px; width: 100%; height: 60px; position: absolute; left: 0; top: 0; box-shadow: 0 0 15px 0 gray;">
-    <span style="color: white; width: 160px; height: 80px; display: inline-block;">
-    <a href="index.html" id="title" onmouseover="titleover()" onmouseout="titleout()" style="color: white; text-decoration: none; font-size: 25px; position: absolute; left: 15%; top: -10%">
-      <p><b>
+    <div id="header">
+    <span style="color: white; width: auto; position: absolute; top: 25%; left: 10%; height: auto;">
+    <a href="index.html" id="title"style="color: white; text-decoration: none;">
+      <b>
       Ronald Beaufils
     </b>
-    </p>
-  </a>
-  </span>
-  <div style="position: absolute; left: 50%; top: 0px;" >
-    <span style="position: relative; top: 20px; left: 30px;">
-    <a href="index.html" id="accueil" onmouseover="accueilover()" onmouseout="accueilout()" style="color: white; text-decoration: none; font-size: 20px;"><b>Accueil</b></a>
-  </span>
-<span style="position: relative; top: 20px; left: 70px;">
-  <a href="videos.html" id="videos" onmouseover="videosover()" onmouseout="videosout()" style="color: white; text-decoration: none; font-size: 20px;"><b>Vidéos</b></a>
-</span>
-<span style="position: relative; top: 20px; left: 110px;">
-<a href="texte.html" id="texte" onmouseover="texteover()" onmouseout="texteout()" style="color: white; text-decoration: none; font-size: 20px;"><b>Texte</b></a>
-</span>
-<span style="position: relative; top: 20px; left: 150px;">
-<a href="actualites.html" id="actus" onmouseover="actusover()" onmouseout="actusout()" style="color: white; text-decoration: none; font-size: 20px;"><b>Actualités</b></a>
-</span>
-<span style="position: relative; top: 20px; left: 190px;">
-<a href="contact.html" id="contact" onmouseover="contactover()" onmouseout="contactout()" style="color: white; text-decoration: none; font-size: 20px;"><b>Contact</b></a>
-</span>
-</div>
-</div>
+    </a>
+    </span>
+
+    <span style="position: absolute; top: 20px; right: 45%;">
+    <a href="index.html" id="accueil" style="color: white; text-decoration: none;"><b>Accueil</b></a>
+    </span>
+    <span style="position: absolute; top: 20px; right: 35%;">
+    <a href="videos.html" id="videos" style="color: white; text-decoration: none;"><b>Vidéos</b></a>
+    </span>
+    <span style="position: absolute; top: 20px; right: 27%;">
+    <a href="texte.html" id="texte" style="color: white; text-decoration: none;"><b>Texte</b></a>
+    </span>
+    <span style="position: absolute; top: 20px; right: 15%;">
+    <a href="actualites.html" id="actus" style="color: white; text-decoration: none;"><b>Actualités</b></a>
+    </span>
+    <span style="position: absolute; top: 20px; right: 5%;">
+    <a href="contact.html" id="contact" style="color: white; text-decoration: none;"><b>Contact</b></a>
+    </span>
+    </div>
 <div class="content" style="position: absolute; top: 80px; width: 100%; left: 0;">
-  <div id="" style="width: 100%; height: 500px;position: absolute; top: 500px; padding-bottom: 50px; background-color: slateblue; color: white; min-width: 1480px;">
-<div class="" style="width: 50%; position: absolute; right: 0%;">
-  <h2 style="text-align: center;">Nouvelle video sur les temoins de Jehovah</h2>
-  <p style="text-align: center; font-size: 20px;">Une nouvelle video sur une etude des temoins de Jehovah est publiee sur la chaine youtube ainsi que sur ce site.
-    Cette video est la premiere d'une serie d'environ 10 a 12 episodes sur une etude ayant pour sujet "Les temoins de Jehovah".</p>
-    <p style="text-align: center; font-size: 20px;">Afin de regarder la video sur youtube, cliquez <a id="link" href="https://www.youtube.com/watch?v=aLD4iK42nf8" style="color: red;">ici</a></p>
-    <p style="text-align: center; font-size: 20px;">Pour voir la video sur le site, allez dans la section "Videos" ou cliquez <a id="link" href="videos/temoinsfaceBible1.html" style="color: yellow">ici</a></p>
-</div>
-
-<div id="images" style="width: 570px; height: 367px; position: absolute; left: 7%; top: 15%;">
-<img id="livre2" src="style/images/actus-thumb1.png" style="width: 100%; height: 100%; position: absolute; border-radius: 2%">
-</div>
+  <div id="info-container-2">
+    <div id="text-container">
+      <h2 style="text-align: center;">Nouvelle video sur les temoins de Jehovah</h2>
+      <p style="text-align: center; font-size: 20px;">Une nouvelle video sur une etude des temoins de Jehovah est publiee sur la chaine youtube ainsi que sur ce site.
+        Cette video est la premiere d'une serie d'environ 10 a 12 episodes sur une etude ayant pour sujet "Les temoins de Jehovah".</p>
+        <p style="text-align: center; font-size: 20px;">Afin de regarder la video sur youtube, cliquez <a id="link" href="https://www.youtube.com/watch?v=aLD4iK42nf8" style="color: red;">ici</a></p>
+        <p style="text-align: center; font-size: 20px;">Pour voir la video sur le site, allez dans la section "Videos" ou cliquez <a id="link" href="videos/temoinsfaceBible1.html" style="color: yellow">ici</a></p>
+    </div>
 
 
-</div>
-
-<div id="" style="width: 100%; height: 500px;position: absolute; top: 1000px; padding-bottom: 50px; background-color: black; color: white; min-width: 1480px;">
-<div class="" style="width: 50%; position: absolute; right: 0%;">
-<h2 style="text-align: center;">Nouvelle video sur les temoins de Jehovah</h2>
-<p style="text-align: center; font-size: 20px;">Une nouvel episode sur la serie d'etudes des temoins de Jehovah est publiee sur la chaine youtube ainsi que sur ce site.
-  Ce nouvel episode a pour sujet "L'oeuvre de Rutherford et Nathan H. Knorr".</p>
-  <p style="text-align: center; font-size: 20px;">Afin de regarder la video sur youtube, cliquez <a id="link" href="https://www.youtube.com/watch?v=JJDIM7zSQjA" style="color: red;">ici</a></p>
-  <p style="text-align: center; font-size: 20px;">Pour voir la video sur le site, allez dans la section "Videos" ou cliquez <a id="link" href="videos/temoinsfaceBible2.html" style="color: yellow">ici</a></p>
-</div>
-
-<div id="images" style="width: 570px; height: 367px; position: absolute; left: 7%; top: 15%;">
-<img id="livre2" src="style/images/actus-thumb2.png" style="width: 100%; height: 100%; position: absolute; border-radius: 2%">
+    <div id="images">
+    <img id="livre2" src="style/images/actus-thumb1.png" style="width: 100%; height: 100%; position: absolute; border-radius: 2%">
+    </div>
 </div>
 
 
+    <div id="info-container-3">
+    <div id="text-container">
+    <h2 style="text-align: center;">Nouvelle video sur les temoins de Jehovah</h2>
+    <p style="text-align: center; font-size: 20px;">Une nouvel episode sur la serie d'etudes des temoins de Jehovah est publiee sur la chaine youtube ainsi que sur ce site.
+      Ce nouvel episode a pour sujet "L'oeuvre de Rutherford et Nathan H. Knorr".</p>
+      <p style="text-align: center; font-size: 20px;">Afin de regarder la video sur youtube, cliquez <a id="link" href="https://www.youtube.com/watch?v=JJDIM7zSQjA" style="color: red;">ici</a></p>
+      <p style="text-align: center; font-size: 20px;">Pour voir la video sur le site, allez dans la section "Videos" ou cliquez <a id="link" href="videos/temoinsfaceBible2.html" style="color: yellow">ici</a></p>
+    </div>
+
+    <div id="images">
+    <img id="livre2" src="style/images/actus-thumb2.png" style="width: 100%; height: 100%; position: absolute; border-radius: 2%">
+    </div>
+
+
+    </div>
+
+    <div id="info-container-4">
+    <div id="text-container">
+    <h2 style="text-align: center;">Nouvelle video sur les temoins de Jehovah</h2>
+    <p style="text-align: center; font-size: 20px;">Le troisieme episode sur la serie d'etudes des temoins de Jehovah est publiee sur la chaine youtube ainsi que sur ce site.
+      Ce nouvel episode a pour sujet "La christologie".</p>
+      <p style="text-align: center; font-size: 20px;">Afin de regarder la video sur youtube, cliquez <a id="link" href="https://www.youtube.com/watch?v=o5hDnVbSzTI" style="color: red;">ici</a></p>
+      <p style="text-align: center; font-size: 20px;">Pour voir la video sur le site, allez dans la section "Videos" ou cliquez <a id="link" href="videos/temoinsfaceBible3.html" style="color: yellow">ici</a></p>
+    </div>
+
+    <div id="images">
+    <img id="livre2" src="style/images/actus-thumb3.png" style="width: 100%; height: 100%; position: absolute; border-radius: 2%">
+    </div>
+
+
+    </div>
+
+    <div id="info-container-5">
+    <div id="text-container">
+    <h2 style="text-align: center;">Nouvelle video sur les temoins de Jehovah</h2>
+    <p style="text-align: center; font-size: 20px;">Le quatrieme episode sur la serie d'etudes des temoins de Jehovah est publiee sur la chaine youtube ainsi que sur ce site.
+      Ce nouvel episode a pour sujet "La pneumatologie, theologie propre".</p>
+      <p style="text-align: center; font-size: 20px;">Afin de regarder la video sur youtube, cliquez <a id="link" href="https://www.youtube.com/watch?v=o5hDnVbSzTI" style="color: red;">ici</a></p>
+      <p style="text-align: center; font-size: 20px;">Pour voir la video sur le site, allez dans la section "Videos" ou cliquez <a id="link" href="videos/temoinsfaceBible3.html" style="color: yellow">ici</a></p>
+    </div>
+
+    <div id="images">
+    <img id="livre2" src="style/images/actus-thumb4.jpg" style="width: 100%; height: 100%; position: absolute; border-radius: 2%">
+    </div>
+
+
+    </div>
+
+    <div id="info-container-6">
+    <div id="text-container">
+    <h2 style="text-align: center;">Nouvelle video sur les temoins de Jehovah</h2>
+    <p style="text-align: center; font-size: 20px;">Le cinquieme episode sur la serie d'etudes des temoins de Jehovah est publiee sur la chaine youtube ainsi que sur ce site.
+      Ce nouvel episode a pour sujet "La trinite".</p>
+      <p style="text-align: center; font-size: 20px;">Afin de regarder la video sur youtube, cliquez <a id="link" href="https://www.youtube.com/watch?v=o5hDnVbSzTI" style="color: red;">ici</a></p>
+      <p style="text-align: center; font-size: 20px;">Pour voir la video sur le site, allez dans la section "Videos" ou cliquez <a id="link" href="videos/temoinsfaceBible3.html" style="color: yellow">ici</a></p>
+    </div>
+
+    <div id="images">
+    <img id="livre2" src="style/images/actus-thumb5.png" style="width: 100%; height: 100%; position: absolute; border-radius: 2%">
+    </div>
+
+
+    </div>
+
+
+      <div id="info-container-1">
+    <div id="text-container">
+      <h2 style="text-align: center;">Publication du livre "L'évangile Totale à L'homme Total"</h2>
+      <p style="text-align: center; font-size: 20px;">Le livre "L'évangile Totale à L'homme Total" est disponible en Librairie (La Pléiade et Presses Évangéliques) et sur <a href="https://www.amazon.com/LEvangile-total-%C3%A0-lhomme-French-ebook/dp/B09JB2XRDD/ref=sr_1_1?crid=GW1N5OZGCZK3&keywords=l%27evangile+totale&qid=1658447072&sprefix=l%27%C3%A9vangile+totale%2Caps%2C168&sr=8-1" style="color: red;">
+        Amazon</a>  en version électronique. Ce livre, publié par Ronald Beaufils, traite de la chrétienneté sur tous ses aspects et du rôle  du chrétien dans le monde.</p>
+        <p style="text-align: center; font-size: 20px;">Pour vous procurer ce livre, rendez-vous dans une librairie ou contactez son auteur, le Pasteur Ronald Beaufils.</p>
+    </div>
+
+    <div id="images">
+    <img id="livre2" src="style/images/Livre 2.png" style="width: 100%; height: 100%; position: absolute; border-radius: 2%">
+    <img id="livre1" src="style/images/Livre 1.jpg" style="width: 100%; position: absolute; border-radius: 2%;height: 100%;">
+    </div>
+
+    </div>
+
+
+
 </div>
 
-<div id="" style="width: 100%; height: 500px;position: absolute; top: 1500px; padding-bottom: 50px; background-color: slateblue; color: white; min-width: 1480px;">
-<div class="" style="width: 50%; position: absolute; right: 0%;">
-<h2 style="text-align: center;">Nouvelle video sur les temoins de Jehovah</h2>
-<p style="text-align: center; font-size: 20px;">Le troisieme sur la serie d'etudes des temoins de Jehovah est publiee sur la chaine youtube ainsi que sur ce site.
-  Ce nouvel episode a pour sujet "La christologie".</p>
-  <p style="text-align: center; font-size: 20px;">Afin de regarder la video sur youtube, cliquez <a id="link" href="https://www.youtube.com/watch?v=o5hDnVbSzTI" style="color: red;">ici</a></p>
-  <p style="text-align: center; font-size: 20px;">Pour voir la video sur le site, allez dans la section "Videos" ou cliquez <a id="link" href="videos/temoinsfaceBible3.html" style="color: yellow">ici</a></p>
-</div>
-
-<div id="images" style="width: 570px; height: 367px; position: absolute; left: 7%; top: 15%;">
-<img id="livre2" src="style/images/actus-thumb3.png" style="width: 100%; height: 100%; position: absolute; border-radius: 2%">
-</div>
-
-
-</div>
-
-
-  <div id="livrepublication" style="width: 100%; height: 500px;position: absolute; background-color: black; color: white; min-width: 1480px;">
-<div class="" style="width: 50%; position: absolute; right: 0%;">
-  <h2 style="text-align: center;">Publication du livre "L'évangile Totale à L'homme Total"</h2>
-  <p style="text-align: center; font-size: 20px;">Le livre "L'évangile Totale à L'homme Total" est disponible en Librairie (La Pléiade et Presses Évangéliques) et sur <a href="https://www.amazon.com/LEvangile-total-%C3%A0-lhomme-French-ebook/dp/B09JB2XRDD/ref=sr_1_1?crid=GW1N5OZGCZK3&keywords=l%27evangile+totale&qid=1658447072&sprefix=l%27%C3%A9vangile+totale%2Caps%2C168&sr=8-1" style="color: red;">
-    Amazon</a>  en version électronique. Ce livre, publié par Ronald Beaufils, traite de la chrétienneté sur tous ses aspects et du rôle  du chrétien dans le monde.</p>
-    <p style="text-align: center; font-size: 20px;">Pour vous procurer ce livre, rendez-vous dans une librairie ou contactez son auteur, le Pasteur Ronald Beaufils.</p>
-</div>
-
-<div id="images" style="width: 570px; height: 367px; position: absolute; left: 7%; top: 15%;">
-<img id="livre2" src="style/images/Livre 2.png" style="width: 100%; height: 100%; position: absolute; border-radius: 2%">
-<img id="livre1" src="style/images/Livre 1.jpg" style="width: 100%; position: absolute; border-radius: 2%;height: 100%;">
-</div>
-
-
-</div>
-
-<footer style="position: fixed; left: 0; bottom: 0; background-color: darkblue; width: 100%; height: 50px; color: white">
+<footer id="footer">
   <h4 style="position: absolute; left: 20%; bottom: -50%; font-size: 25px;"> Ronald Beaufils</h4>
   <p style="text-align: center; font-size: 16px;">© 2021</p>
 </footer>
 
+<script src="script/actus-mobile-action.js"></script>
 <script type="text/javascript">
 function titleover() {
   document.getElementById('title').style.color = "black";
