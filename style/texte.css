@@ -13,5 +13,10 @@
 }
 
 #show-text {
+   color: gray;
+   position: absolute;
+   width: 100%;
+   border-bottom: 20px;
    font-size: 15px;
+      text-align: center;
 }

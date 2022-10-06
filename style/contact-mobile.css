@@ -1,0 +1,72 @@
+#gmailt {
+  position: relative;
+  bottom: 10px;
+  left: 20px;
+  font-size: 35px;
+  color: blue;
+  padding-bottom: 30px;
+}
+
+#gmailt:hover {
+text-decoration: underline;
+}
+
+#yahoot {
+  position: relative;
+  bottom: 10px;
+  left: 20px;
+  font-size: 35px;
+  color: blue;
+}
+
+#yahoot:hover {
+text-decoration: underline;
+}
+
+#fbt {
+  position: relative;
+  bottom: 10px;
+  left: 20px;
+  font-size: 35px;
+  color: blue;
+}
+
+#fbt:hover {
+text-decoration: underline;
+}
+
+#twittert {
+  position: relative;
+  bottom: 10px;
+  left: 20px;
+  font-size: 35px;
+  color: blue;
+}
+
+#twittert:hover {
+  text-decoration: underline;
+}
+
+#igt {
+  position: relative;
+  bottom: 10px;
+  left: 20px;
+  font-size: 35px;
+  color: blue;
+}
+
+#igt:hover {
+text-decoration: underline;
+}
+
+#ytt {
+  position: relative;
+  bottom: 10px;
+  left: 20px;
+  font-size: 35px;
+  color: blue;
+}
+
+#ytt:hover {
+text-decoration: underline;
+}
