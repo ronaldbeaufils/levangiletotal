@@ -1,0 +1,16 @@
+#content {
+  position: absolute;
+  top: 80px;
+  width: 90%;
+  left: 5%;
+  min-height: 700px;
+  padding-bottom: 200px;
+}
+
+#text-3 {
+  font-size:40px;
+}
+
+#text-3-title {
+  font-size:60px;
+}
