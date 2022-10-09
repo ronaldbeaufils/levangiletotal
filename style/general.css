@@ -23,24 +23,54 @@
 
 #title {
 font-size: 25px;
+color: white;
 }
 
 #accueil {
 font-size: 20px;
+color: white;
 }
 
 #videos {
   font-size: 20px;
+  color: white;
 }
 
 #texte {
   font-size: 20px;
+  color: white;
 }
 
 #actus {
   font-size: 20px;
+  color: white;
 }
 
 #contact {
   font-size: 20px;
+  color: white;
+}
+
+#title:hover {
+  color: black;
+}
+
+#accueil:hover {
+  color: black;
+}
+
+#videos:hover {
+  color: black;
+}
+
+#texte:hover {
+  color: black;
+}
+
+#actus:hover {
+  color: black;
+}
+
+#contact:hover {
+  color: black;
 }
