@@ -7,6 +7,14 @@
   padding-bottom: 200px;
 }
 
+#text-general-title {
+  font-size: 50px;
+}
+
+#text-general {
+  font-size: 40px;
+}
+
 #text-3 {
   font-size:40px;
 }
@@ -25,4 +33,13 @@
 
 #text-9-title {
   font-size: 60px;
+}
+
+#text-22 {
+  line-height:100%;
+  font-size: 40px;
+}
+#text-22-title {
+  line-height:100%;
+  font-size: 50px;
 }
