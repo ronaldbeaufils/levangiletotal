@@ -103,6 +103,17 @@ animation-iteration-count: infinite;
      min-width: 500px;
    }
 
+   #info-container-8 {
+      width: 100%;
+      height: 500px;
+      position: absolute;
+      top: 3500px;
+      padding-bottom: 50px;
+      background-color: slateblue;
+      color: white;
+      min-width: 500px;
+    }
+
 
 #images {
    width: 45%;
