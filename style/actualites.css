@@ -107,6 +107,16 @@ color: white;
      color: white;
     }
 
+    #info-container-9 {
+      width: 100%;
+      height: 500px;
+      position: absolute;
+      top: 4000px;
+      padding-bottom: 50px;
+      background-color: black;
+      color: white;
+     }
+
 #images {
    width: 570px;
    height: 367px;
