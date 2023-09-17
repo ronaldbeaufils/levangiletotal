@@ -540,8 +540,18 @@ min-width: 500px;
                                             padding-bottom: 50px;
                                             background-color: black;
                                             color: white;
-min-width: 500px;
-                                  }
+                                            min-width: 500px;
+                                          }
+                                          #info-container-48 {
+                                            width: 100%;
+                                            height: 500px;
+                                            position: absolute;
+                                            top: 23500px;
+                                            padding-bottom: 50px;
+                                            background-color: black;
+                                            color: white;
+                                            min-width: 500px;
+                                          }
 
 
 #images {

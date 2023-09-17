@@ -496,6 +496,15 @@ color: white;
                                             background-color: black;
                                             color: white;
                                            }
+                                           #info-container-48 {
+                                             width: 100%;
+                                             height: 500px;
+                                             position: absolute;
+                                             top: 23500px;
+                                             padding-bottom: 50px;
+                                             background-color: black;
+                                             color: white;
+                                            }
 
 
 #images {
