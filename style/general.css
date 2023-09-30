@@ -74,3 +74,12 @@ color: white;
 #contact:hover {
   color: black;
 }
+
+#heading {
+  width: 50%;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: inline-flex;
+  justify-content: space-around;
+}

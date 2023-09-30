@@ -49,7 +49,9 @@ color: white;
 
 #images {
    width: 40%;
-   height: 70%;
+   height: auto;
+   aspect-ratio: 16/9;
+   object-fit: contain;
    position: relative;
    left: 5%;
    top: 15%

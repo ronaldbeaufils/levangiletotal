@@ -50,8 +50,10 @@ animation-iteration-count: infinite;
 
 #images {
    width: 40%;
-   height: 60%;
+   height: auto;
+   aspect-ratio: 16/10;
+   object-fit: contain;
    position: relative;
    left: 4%;
-   top: 15%;
+   top: 20%;
 }

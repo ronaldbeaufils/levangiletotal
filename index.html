@@ -17,28 +17,26 @@
     </a>
     </span>
 
-    <span style="position: absolute; top: 20px; right: 45%;">
-    <a href="index.html" id="accueil" style="text-decoration: none;"><b>Accueil</b></a>
-    </span>
-    <span style="position: absolute; top: 20px; right: 35%;">
-    <a href="videos.html" id="videos" style="text-decoration: none;"><b>Vidéos</b></a>
-    </span>
-    <span style="position: absolute; top: 20px; right: 27%;">
-    <a href="texte.html" id="texte" style="text-decoration: none;"><b>Texte</b></a>
-    </span>
-    <span style="position: absolute; top: 20px; right: 15%;">
-    <a href="actualites.html" id="actus" style="text-decoration: none;"><b>Actualités</b></a>
-    </span>
-    <span style="position: absolute; top: 20px; right: 5%;">
-    <a href="contact.html" id="contact" style="text-decoration: none;"><b>Contact</b></a>
-    </span>
+    <div id= "heading">
+        <a href="index.html" id="accueil" style="text-decoration: none;"><b>Accueil</b></a>
+
+
+        <a href="videos.html" id="videos" style="text-decoration: none;"><b>Vidéos</b></a>
+
+
+        <a href="texte.html" id="texte" style="text-decoration: none;"><b>Texte</b></a>
+
+      <a href="actualites.html" id="actus" style="text-decoration: none;"><b>Actualités</b></a>
+
+        <a href="contact.html" id="contact" style="text-decoration: none;"><b>Contact</b></a>
+      </div>
     </div>
 <div class="content" style="position: absolute; left: 0; top: 80px; width: 90%; height: auto; padding-bottom: 100px; padding-left: 5%; padding-right: 5%; display: flex; flex-direction: column; align-items: center;">
 <h1 style="text-align: center;">Bienvenue Dans Le Site Du Pasteur Ronald Beaufils</h1>
 <p style="text-align: center; font-size: 30px;">Ce site regroupe des textes et des vidéos préparés par le pasteur Ronald Beaufils. On peut aussi y trouver des livres écrits par ce dernier ainsi que ses dernières actualités.</p>
   <p style="font-size: 30px; text-align: center;">Sur ce, nous vous souhaitons de passer un agréable moment.</p>
 <h2 style="text-align: center;">Proposition d'une vidéo</h2>
-<iframe width="600" height="350" style="border-radius: 25px;" src="https://www.youtube.com/embed/b57qhRHoy2s" title="Quand tout vient à manquer , il te reste Dieu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="width: 70%; height: auto; aspect-ratio: 16/9; object-fit: contain; border-radius: 25px;" src="https://www.youtube.com/embed/b57qhRHoy2s" title="Quand tout vient à manquer , il te reste Dieu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 
@@ -47,5 +45,24 @@
   <p style="text-align: center; font-size: 16px;">© 2021</p>
 </footer>
 <script src="script/mobile-action.js"></script>
+<script type="text/javascript">
+  var head_width = document.getElementById('header');
+  var c = head_width.offsetWidth;
+  console.log(c);
+
+function sans() {
+  var wid = document.getElementById('header').offsetWidth;
+  var hei = document.getElementById('header').offsetHeight;
+  console.log(wid, hei);
+  if (wid <= 590) {
+    document.getElementById('heading').style.display = "none";
+  }
+  else {
+    document.getElementById('heading').style.display = "inline-flex";
+  }
+}
+
+window.addEventListener("resize", sans);
+</script>
   </body>
 </html>
