@@ -9,6 +9,9 @@
 
 #list {
   font-size: 60px;
+  display: flex;
+  flex-direction: column-reverse;
+  font-weight: bold;
 }
 
 #show-text {
