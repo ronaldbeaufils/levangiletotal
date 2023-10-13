@@ -120,15 +120,11 @@ document.getElementById('inp').addEventListener("click", topping);
   function themeCheck() {
     let theme = getCookie("theme");
     if (theme != "" && theme != null && theme != "light") {
-     document.getElementById('header').style.backgroundColor = "gray";
+     document.getElementById('header').style.backgroundColor = "black";
     }
-    else if (theme!= "" && theme != null && theme != "dark") {
+    else{
       document.getElementById('header').style.backgroundColor = "#031643";
     }
-    else {
-      setCookie("light");
-    }
-  }
 
   function topping() {
   var inpc = document.getElementById('inp').checked;
