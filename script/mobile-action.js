@@ -1,6 +1,7 @@
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
   // true for mobile device
   console.log("mobile device");
+  document.body.onload = themeCheck();
   var gen = document.getElementById('s-general');
   gen.href = "style/general-mobile.css";
 
@@ -47,10 +48,10 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
   function themeCheck() {
     let theme = getCookie("theme");
     if (theme != "" && theme != null && theme != "light") {
-     document.getElementById('header').style.backgroundColor = "gray";
+     console.log(theme);
     }
     else if (theme!= "" && theme != null && theme != "dark") {
-      document.getElementById('header').style.backgroundColor = "#031643";
+      console.log(theme);
     }
     else {
       setCookie("light");
