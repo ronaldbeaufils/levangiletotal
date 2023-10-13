@@ -1,0 +1,94 @@
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: darkblue;
+  width: 100%;
+  height: 50px;
+  color: white;
+  border-top: 50px;
+}
+
+#header {
+  background-color: blue;
+  min-width: 500px;
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-shadow: 0 0 15px 0 gray;
+}
+
+
+#title {
+font-size: 25px;
+color: white;
+}
+
+#accueil {
+font-size: 20px;
+color: white;
+}
+
+#videos {
+  font-size: 20px;
+  color: white;
+}
+
+#texte {
+  font-size: 20px;
+  color: white;
+}
+
+#actus {
+  font-size: 20px;
+  color: white;
+}
+
+#contact {
+  font-size: 20px;
+  color: white;
+}
+
+#title:hover {
+  color: black;
+}
+
+#accueil:hover {
+  color: black;
+}
+
+#videos:hover {
+  color: black;
+}
+
+#texte:hover {
+  color: black;
+}
+
+#actus:hover {
+  color: black;
+}
+
+#contact:hover {
+  color: black;
+}
+
+#heading {
+  width: 50%;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+#list-element {
+  color: white;
+}

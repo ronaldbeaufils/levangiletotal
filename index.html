@@ -4,7 +4,8 @@
     <meta charset="utf-8">
         <link rel="stylesheet" href="style/scrollbar.css">
     <link rel="icon" href="style/images/icon.ico" type="image/icon type">
-    <link rel="stylesheet" href="style/general.css">
+    <link id="s-general" rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/mode-slider.css">
     <title>Accueil</title>
   </head>
   <body>
@@ -29,6 +30,11 @@
       <a href="actualites.html" id="actus" style="text-decoration: none;"><b>Actualités</b></a>
 
         <a href="contact.html" id="contact" style="text-decoration: none;"><b>Contact</b></a>
+
+        <label id="switch" onclick="themeCheck()">
+          <input id="inp" type="checkbox">
+          <span id="slider"></span>
+        </label>
       </div>
     </div>
 <div class="content" style="position: absolute; left: 0; top: 80px; width: 90%; height: auto; padding-bottom: 100px; padding-left: 5%; padding-right: 5%; display: flex; flex-direction: column; align-items: center;">
@@ -44,6 +50,7 @@
   <h4 style="position: absolute; left: 20%; bottom: -50%; font-size: 25px;"> Ronald Beaufils</h4>
   <p style="text-align: center; font-size: 16px;">© 2021</p>
 </footer>
+<script src="script/mode-slider.js"></script>
 <script src="script/mobile-action.js"></script>
 <script type="text/javascript">
   var head_width = document.getElementById('header');
