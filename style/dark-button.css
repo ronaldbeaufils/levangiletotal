@@ -1,0 +1,53 @@
+#dark-button{
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+#dark-button:hover {
+    cursor: pointer;
+}
+
+#dark-button #cro {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+#logo {
+  background-color: gray;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  transition: 1s
+}
+
+#logo2 {
+  position: absolute;
+  top: 12px;
+  left: 23px;
+  right: 0px;
+  bottom: 12px;
+  border-radius: 50%;
+  box-shadow: -8px -0px 0 0 lightgray;
+  transition: 1s;
+}
+
+#cro:checked + #logo {
+  background-color: blue;
+  box-shadow: inset 0px 0px 8px 8px darkblue;
+}
+
+#cro:not(:checked) + #logo {
+  box-shadow: inset 0px 0px 20px 0px black;
+}
+
+  #cro:nth-child(3) {
+    background-color: green;
+  }

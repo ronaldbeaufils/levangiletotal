@@ -1,0 +1,61 @@
+#livre1 {
+animation-name: imageSwipe;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+
+@keyframes imageSwipe {
+0% {opacity: 100%;}
+25% {opacity: 0%;}
+50% {opacity: 0%;}
+75% {opacity: 100%;}
+100% {opacity: 100%;}
+}
+
+#link {
+  text-decoration: none;
+}
+
+#link:hover {
+  text-decoration: underline;
+}
+
+.content {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#info-container {
+  width: 100%;
+  height: 500px;
+  color: white;
+  min-width: 500px;
+}
+
+#text-container {
+   width: 50%;
+   position: absolute;
+   right: 0%;
+   padding-right: 1%;
+   padding-top: 5%;
+}
+
+.bluerow {
+  background-color: midnightblue;
+  transition: 1s;
+}
+
+.blackrow {
+  background-color: black;
+  transition: 1s;
+}
+
+#images {
+   width: 40%;
+   height: auto;
+   aspect-ratio: 16/10;
+   object-fit: contain;
+   position: relative;
+   left: 4%;
+   top: 20%;
+}

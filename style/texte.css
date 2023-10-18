@@ -1,6 +1,7 @@
 #list-element:hover {
   border: solid;
   border-radius: 7%;
+  color: black;
 }
 
 #nonono {

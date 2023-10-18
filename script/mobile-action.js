@@ -1,19 +1,23 @@
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
   // true for mobile device
   console.log("mobile device");
-<<<<<<< HEAD
-  document.body.onload = themeCheck();
+
+
   var gen = document.getElementById('s-general');
   gen.href = "style/general-mobile.css";
 
-  function setCookie(cname) {
-    document.cookie = "theme=" + cname;
-    let x = document.cookie;
-    console.log(x);
+  //this function sets the cookie
+  function setCookie(cname, cvalue) {
+    var cookie = cname + "=" + cvalue;
+    document.cookie = cookie;
   }
 
 
-    function getCookie(cname) {
+
+
+
+  //this function gets all the cookies of the browser and sorts them
+  function getCookie(cname) {
     let name = cname + "=";
     let decodedCookie = decodeURIComponent(document.cookie);
     let ca = decodedCookie.split(';');
@@ -30,62 +34,106 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
   }
 
 
-  function checkCookie() {
-    let theme = getCookie("theme");
-    if (theme != "" && theme != null && theme != "light") {
-     setCookie("light")
-     document.getElementById('header').style.backgroundColor = "#031643";
-    }
-    else if (theme!= "" && theme != null && theme != "dark") {
-      setCookie("dark");
-      document.getElementById('header').style.backgroundColor = "gray";
-    }
-    else {
-      setCookie("light");
-    }
+
+
+  //this function changes the color of logo2 (the little)
+  //moon in the center of the dark mode button
+
+  function ver() {
+  var d = document.getElementById('cro').checked;
+  if (d == true) {
+    console.log(d);
+  document.getElementById('logo2').style.boxShadow = "-8px -0px 0 0 white";
+  }
+  else {
+    console.log(d);
+    document.getElementById('logo2').style.boxShadow = "-8px -0px 0 0 lightgray";
+  }
 
   }
 
-  function themeCheck() {
-    let theme = getCookie("theme");
-    if (theme != "" && theme != null && theme != "light") {
-     console.log(theme);
-    }
-    else if (theme!= "" && theme != null && theme != "dark") {
-      console.log(theme);
+  function check() {
+    var cookie =  getCookie("theme");
+    console.log(cookie + 1);
+    if (cookie = null) {
+    setCookie("theme", "light");
+    console.log(cookie + 2);
     }
     else {
-      setCookie("light");
+      return " ";
     }
   }
 
-  function topping() {
-  var inpc = document.getElementById('inp').checked;
-console.log(inpc);
-if (inpc != true) {
-  console.log(2);
-  document.getElementById('s-general').href = "style/general-mobile.css";
-}
 
-else {
-  console.log(1);
-  document.getElementById('s-general').href = "style/general-mobile-dark.css";
-}
-}
-document.getElementById('inp').addEventListener("click", topping);
+  //this is an event listener for the function that changes the color
+  //of logo 2
+  document.getElementById('cro').addEventListener("click", ver);
+
+  function checking() {
+    var x = getCookie("theme");
+    console.log(x + 36);
+    if (x == "light") {
+      document.body.style.backgroundColor = "white";
+      document.getElementById('cro').checked = false;
+    }
+
+    else if (x == "dark"){
+
+      var gen = document.getElementById('s-general');
+      gen.href = "style/general-mobile-dark.css";
+      document.getElementById('cro').checked = true;
+    }
+
+    else {
+
+    }
+  }
+
+
+  //this function toggles the dark mode (or white mode) of the page
+  function toggle() {
+    check();
+    var is_checked = document.getElementById('cro').checked;
+    document.body.style.transition = "1s";
+    if (is_checked == true) {
+      var gen = document.getElementById('s-general');
+      gen.href = "style/general-mobile-dark.css"
+      let x = document.cookie;
+      console.log(x)
+    }
+    else {
+      var gen = document.getElementById('s-general');
+      gen.href = "style/general-mobile.css"
+      document.cookie = "theme=light";
+      let x = document.cookie;
+      console.log(x);
+    }
+  }
+
+  //this is the event listener for the funcion that toggles dark and white mode
+  document.getElementById('dark-button').addEventListener("click", toggle);
+
+document.body.addEventListener("load", checking());
 
 }else{
   // false for not mobile device
   console.log("not mobile device");
 
-  function setCookie(cname) {
-    document.cookie = "theme=" + cname;
-    let x = document.cookie;
-    console.log(x);
+  var gen = document.getElementById('s-general');
+  gen.href = "style/general-mobile.css";
+
+  //this function sets the cookie
+  function setCookie(cname, cvalue) {
+    var cookie = cname + "=" + cvalue;
+    document.cookie = cookie;
   }
 
 
-    function getCookie(cname) {
+
+
+
+  //this function gets all the cookies of the browser and sorts them
+  function getCookie(cname) {
     let name = cname + "=";
     let decodedCookie = decodeURIComponent(document.cookie);
     let ca = decodedCookie.split(';');
@@ -102,50 +150,85 @@ document.getElementById('inp').addEventListener("click", topping);
   }
 
 
-  function checkCookie() {
-    let theme = getCookie("theme");
-    if (theme != "" && theme != null && theme != "light") {
-     setCookie("light")
-     document.getElementById('header').style.backgroundColor = "#031643";
-    }
-    else if (theme!= "" && theme != null && theme != "dark") {
-      setCookie("dark");
-      document.getElementById('header').style.backgroundColor = "gray";
-    }
-    else {
-      setCookie("light");
-    }
+
+
+  //this function changes the color of logo2 (the little)
+  //moon in the center of the dark mode button
+
+  function ver() {
+  var d = document.getElementById('cro').checked;
+  if (d == true) {
+    console.log(d);
+  document.getElementById('logo2').style.boxShadow = "-8px -0px 0 0 white";
+  }
+  else {
+    console.log(d);
+    document.getElementById('logo2').style.boxShadow = "-8px -0px 0 0 lightgray";
+  }
 
   }
 
-  function themeCheck() {
-    let theme = getCookie("theme");
-    if (theme != "" && theme != null && theme != "light") {
-     document.getElementById('header').style.backgroundColor = "black";
+  function check() {
+    var cookie =  getCookie("theme");
+    console.log(cookie + 1);
+    if (cookie = null) {
+    setCookie("theme", "light");
+    console.log(cookie + 2);
     }
-    else{
-      document.getElementById('header').style.backgroundColor = "#031643";
+    else {
+      return " ";
+    }
+  }
+
+
+  //this is an event listener for the function that changes the color
+  //of logo 2
+  document.getElementById('cro').addEventListener("click", ver);
+
+  function checking() {
+    var x = getCookie("theme");
+    console.log(x + 36);
+    if (x == "light") {
+      var gen = document.getElementById('s-general');
+      gen.href = "style/general.css";
+      document.getElementById('cro').checked = false;
     }
 
-  function topping() {
-  var inpc = document.getElementById('inp').checked;
-console.log(inpc);
-if (inpc != true) {
-  console.log(2);
-  document.getElementById('s-general').href = "style/general.css";
-}
+    else if (x == "dark"){
+      var gen = document.getElementById('s-general');
+      gen.href = "style/general-dark.css";
+      document.getElementById('cro').checked = true;
+    }
 
-else {
-  console.log(1);
-  document.getElementById('s-general').href = "style/general-dark.css";
-}
-}
-document.getElementById('inp').addEventListener("click", topping);
-=======
-  var heade = document.getElementById('head');
-  heade.innerHTML = "<link rel='stylesheet' href='style/scrollbar.css'><br><link rel='stylesheet' href='style/texte-mobile.css'><br><link rel='stylesheet' href='style/general-mobile.css'><br><title>Accueil</title>"
-}else{
-  // false for not mobile device
-  console.log("not mobile device");
->>>>>>> parent of c4c8ed0 (trying dark mode)
+    else {
+
+    }
+  }
+
+
+  //this function toggles the dark mode (or white mode) of the page
+  function toggle() {
+    check();
+    var is_checked = document.getElementById('cro').checked;
+    document.body.style.transition = "1s";
+    if (is_checked == true) {
+      var gen = document.getElementById('s-general');
+      gen.href = "style/general-dark.css";
+      document.cookie = "theme=dark";
+      let x = document.cookie;
+      console.log(x)
+    }
+    else {
+      var gen = document.getElementById('s-general');
+      gen.href = "style/general.css";
+      document.cookie = "theme=light";
+      let x = document.cookie;
+      console.log(x);
+    }
+  }
+
+  //this is the event listener for the funcion that toggles dark and white mode
+  document.getElementById('dark-button').addEventListener("click", toggle);
+
+  document.body.addEventListener("load", checking());
 }

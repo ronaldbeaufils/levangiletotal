@@ -1,0 +1,28 @@
+#list-element:hover {
+  border: solid;
+  border-radius: 7%;
+  color: white;
+}
+
+#nonono {
+  font-size: 25px;
+  color: white;
+}
+
+#list {
+  position: relative;
+  top: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+  font-weight: bold;
+  color: white;
+}
+
+#show-text {
+   color: gray;
+   position: absolute;
+   width: 100%;
+   border-bottom: 20px;
+   font-size: 15px;
+      text-align: center;
+}
