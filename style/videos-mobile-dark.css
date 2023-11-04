@@ -1,0 +1,140 @@
+#list-element:hover {
+  border: solid;
+  border-radius: 7%;
+  color: black;
+}
+
+#nonono {
+  font-size: 25px;
+}
+
+#list {
+  position: relative;
+  top: 3920px;
+  display: flex;
+  flex-direction: column-reverse;
+  font-weight: bold;
+}
+
+#show-text {
+   color: lightgray;
+   position: absolute;
+   width: 100%;
+   padding-bottom: 20px;
+   border-bottom: 20px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.recent-video-list {
+  width: 100%;
+  position: relative;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px 45px;
+  padding-bottom: 40px;
+}
+.survol-video-list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px 45px;
+  padding-bottom: 40px;
+}
+
+.temoins-video-list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px 45px;
+  padding-bottom: 40px;
+}
+
+
+
+.video-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  transition: 1s ease;
+}
+
+.video-thumbnail {
+  border-radius: 2vh;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  cursor: pointer;
+  transition: 1s ease;
+}
+
+.video-thumbnail:hover {
+  transform: scale(1.05);
+  transition: 1s ease;
+}
+
+.video-name {
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  font-size: 50px;
+  color: white;
+}
+
+.video-container a {
+  text-decoration: none;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#survol h1 {
+  font-size: 60px;
+}
+
+#temoins h1 {
+  font-size: 60px;
+}
+
+#recents h1 {
+  font-size: 60px;
+}
+
+@media only screen and (orientation: landscape) {
+  .video-container {
+    width: 40%;
+    height: auto;
+    transition: 1s ease;
+  }
+
+  .video-name {
+    font-size: 30px;
+    transition: 1s ease;
+  }
+  #survol h1 {
+    font-size: 40px;
+    transition: 1s ease;
+  }
+
+  #temoins h1 {
+    font-size: 40px;
+    transition: 1s ease;
+  }
+
+  #recents h1 {
+    font-size: 40px;
+    transition: 1s ease;
+  }
+}

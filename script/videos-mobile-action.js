@@ -5,8 +5,8 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
 
   var gen = document.getElementById('s-general');
   gen.href = "style/general-mobile.css";
-  var text = document.getElementById('s-texte');
-  text.href = "style/texte-mobile.css";
+  var text = document.getElementById('s-videos');
+  text.href = "style/videos-mobile.css";
 
   //this function sets the cookie
   function setCookie(cname, cvalue) {
@@ -77,8 +77,8 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
     if (x == "light") {
       var gen = document.getElementById('s-general');
       gen.href = "style/general-mobile.css";
-      var text = document.getElementById('s-texte');
-      text.href = "style/texte-mobile.css";
+      var text = document.getElementById('s-videos');
+      text.href = "style/videos-mobile.css";
       document.getElementById('cro').checked = false;
     }
 
@@ -86,8 +86,8 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
 
       var gen = document.getElementById('s-general');
       gen.href = "style/general-mobile-dark.css";
-      var text = document.getElementById('s-texte');
-      text.href = "style/texte-mobile-dark.css";
+      var text = document.getElementById('s-videos');
+      text.href = "style/videos-mobile-dark.css";
       document.getElementById('cro').checked = true;
     }
 
@@ -105,8 +105,8 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
     if (is_checked == true) {
       var gen = document.getElementById('s-general');
       gen.href = "style/general-mobile-dark.css";
-      var text = document.getElementById('s-texte');
-      text.href = "style/texte-mobile-dark.css";
+      var text = document.getElementById('s-videos');
+      text.href = "style/videos-mobile-dark.css";
       document.cookie = "theme=dark";
       let x = document.cookie;
       console.log(x)
@@ -114,8 +114,8 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
     else {
       var gen = document.getElementById('s-general');
       gen.href = "style/general-mobile.css";
-      var text = document.getElementById('s-texte');
-      text.href = "style/texte-mobile.css";
+      var text = document.getElementById('s-videos');
+      text.href = "style/videos-mobile.css";
       document.cookie = "theme=light";
       let x = document.cookie;
       console.log(x);
@@ -133,8 +133,8 @@ document.body.addEventListener("load", checking());
 
   var gen = document.getElementById('s-general');
   gen.href = "style/general.css";
-  var text = document.getElementById('s-texte');
-  text.href = "style/texte.css"
+  var text = document.getElementById('s-videos');
+  text.href = "style/videos.css"
 
   //this function sets the cookie
   function setCookie(cname, cvalue) {
@@ -205,16 +205,16 @@ document.body.addEventListener("load", checking());
     if (x == "light") {
       var gen = document.getElementById('s-general');
       gen.href = "style/general.css";
-      var text = document.getElementById('s-texte');
-      text.href = "style/texte.css"
+      var text = document.getElementById('s-videos');
+      text.href = "style/videos.css"
       document.getElementById('cro').checked = false;
     }
 
     else if (x == "dark"){
       var gen = document.getElementById('s-general');
       gen.href = "style/general-dark.css";
-      var text = document.getElementById('s-texte');
-      text.href = "style/texte-dark.css"
+      var text = document.getElementById('s-videos');
+      text.href = "style/videos-dark.css"
       document.getElementById('cro').checked = true;
     }
 
@@ -232,8 +232,8 @@ document.body.addEventListener("load", checking());
     if (is_checked == true) {
       var gen = document.getElementById('s-general');
       gen.href = "style/general-dark.css"
-      var text = document.getElementById('s-texte');
-      text.href = "style/texte-dark.css"
+      var text = document.getElementById('s-videos');
+      text.href = "style/videos-dark.css"
       document.cookie = "theme=dark";
       let x = document.cookie;
       console.log(x)
@@ -241,8 +241,8 @@ document.body.addEventListener("load", checking());
     else {
       var gen = document.getElementById('s-general');
       gen.href = "style/general.css"
-      var text = document.getElementById('s-texte');
-      text.href = "style/texte.css"
+      var text = document.getElementById('s-videos');
+      text.href = "style/videos.css"
       document.cookie = "theme=light";
       let x = document.cookie;
       console.log(x);
