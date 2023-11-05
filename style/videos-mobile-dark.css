@@ -115,7 +115,6 @@
   .video-container {
     width: 40%;
     height: auto;
-    transition: 1s ease;
   }
 
   .video-name {

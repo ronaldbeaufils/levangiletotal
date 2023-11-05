@@ -71,6 +71,7 @@
   height: auto;
   aspect-ratio: 16/9;
   cursor: pointer;
+  transition: 1s ease;
 }
 
 .video-thumbnail:hover {
