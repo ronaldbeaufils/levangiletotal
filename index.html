@@ -22,7 +22,14 @@
         <a href="index.html" id="accueil" style="text-decoration: none;"><b>Accueil</b></a>
 
 
-        <a href="videos.html" id="videos" style="text-decoration: none;"><b>Vidéos</b></a>
+        <div class="video-dropdown">
+          <a class="droplink" href="videos.html">Videos</a>
+          <div class="video-dropdown-content">
+            <a href="videos.html#recents">Videos Recentes</a>
+            <a href="videos.html#survol">Survol de la Bible</a>
+            <a href="videos.html#temoins">Les temoins de Jehovah face a la Bible</a>
+          </div>
+        </div>
 
 
         <a href="texte.html" id="texte" style="text-decoration: none;"><b>Texte</b></a>
@@ -57,13 +64,13 @@
 
 </script>
 <script type="text/javascript">
-  var head_width = document.getElementById('header');
+  var head_width = document.getElementById('footer');
   var c = head_width.offsetWidth;
   console.log(c);
 
 function sans() {
-  var wid = document.getElementById('header').offsetWidth;
-  var hei = document.getElementById('header').offsetHeight;
+  var wid = document.getElementById('footer').offsetWidth;
+  var hei = document.getElementById('footer').offsetHeight;
   console.log(wid, hei);
   if (wid <= 590) {
     document.getElementById('heading').style.display = "none";
