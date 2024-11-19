@@ -235,7 +235,7 @@ function verify() {
       gen.href = "style/general-dark.css";
       document.cookie = "theme=dark";
       let x = document.cookie;
-      console.log(x)
+      console.log(x);
     }
     else {
       var gen = document.getElementById('s-general');
